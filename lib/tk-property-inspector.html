@@ -7,12 +7,10 @@ license that can be found in the LICENSE file.
     on-editor-value-changed="{{valueChangedEvent}}">
   <template>
     <style>
-      @host {
-        * {
-          display: block;
-          white-space: nowrap;
-          margin-bottom: 1rem;
-        }
+      :host {
+        display: block;
+        white-space: nowrap;
+        margin-bottom: 1rem;
       }
       .property-name {
         text-overflow: ellipsis;
@@ -209,11 +207,9 @@ license that can be found in the LICENSE file.
 <polymer-element name="tk-property-editor" attributes="editorTag">
   <template>
     <style>
-      @host {
-        * {
-          display: block;
-          white-space: nowrap;
-        }
+      :host {
+        display: block;
+        white-space: nowrap;
       }
     </style>
     <content></content>
@@ -249,11 +245,9 @@ license that can be found in the LICENSE file.
 <polymer-element name="tk-binding-editor" extends="tk-abstract-editor">
   <template>
     <style>
-      @host {
-        * {
-          display: block;
-          white-space: nowrap;
-        }
+      :host {
+        display: block;
+        white-space: nowrap;
       }
     </style>
     <tk-id-select-editor id="idSelect" style="width: 112px;" options="{{elements}}" value="{{target}}" on-editor-value-changed="{{editorValueChanged}}" ></tk-id-select-editor>

@@ -4,13 +4,11 @@ Use of this source code is governed by a BSD-style
 license that can be found in the LICENSE file.
 */
 
-@host {
-  * {
-    font-size: 14px;
-    font-family: 'Helvetica Neue', 'Roboto', 'Arial', sans-serif;
-    overflow: hidden;
-    background-color: whitesmoke;
-  }
+:host {
+  font-size: 14px;
+  font-family: 'Helvetica Neue', 'Roboto', 'Arial', sans-serif;
+  overflow: hidden;
+  background-color: whitesmoke;
 }
 
 /*

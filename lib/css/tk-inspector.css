@@ -4,10 +4,8 @@ Use of this source code is governed by a BSD-style
 license that can be found in the LICENSE file.
 */
 
-@host {
-  * {
-    border: 1px solid silver;
-  }
+:host {
+  border: 1px solid silver;
 }
 
 #header {
