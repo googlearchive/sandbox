@@ -1,0 +1,10 @@
+{
+  "name": "sandbox",
+  "dependencies": {
+    "platform": "Polymer/platform#master",
+    "polymer": "Polymer/polymer#master",
+    "polymer-elements": "Polymer/polymer-elements#master",
+    "polymer-ui-elements": "Polymer/polymer-ui-elements#master",
+    "more-elements": "Polymer/more-elements#master"
+  }
+}
