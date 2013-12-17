@@ -27,7 +27,7 @@ license that can be found in the LICENSE file.
         </polymer-ui-menu-button>
       </polymer-ui-toolbar>
     </polymer-ui-toolbar>
-    <div id="main" class="{{banner: !seen_banner}}">
+    <div id="main" class="{{ {banner: !seen_banner} | tokenList }}">
       <tk-designer id="designer" selected="{{selected}}" designElement="{{designElement}}" maximized="{{maximized}}"></tk-designer>
       <tk-source id="source" fontSize="{{fontSize}}" sourceElement="{{designElement}}" on-source-changed="{{sourceChanged}}" on-keydown="{{sourceKeydown}}"></tk-source>
       <tk-tools id="tools" selected="{{selected}}" sourceElement="{{designElement}}"

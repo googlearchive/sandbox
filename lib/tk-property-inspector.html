@@ -224,11 +224,12 @@ license that can be found in the LICENSE file.
         // bind propertyValue to property
         var p = this.meta.property;
         //Polymer.bindProperties(this, 'propertyValue', p.obj, p.name);
-        this.bindProperty('propertyValue', p.obj, p.name);
+        this.bindProperty('propertyValue', new PathObserver(p.obj, p.name));
         // bind this.editor.value to propertyValue
         // (imperative form of <editor value="{{editorValue}}">)
         //Polymer.bindProperties(this.editor, 'value', this, 'propertyValue');
-        this.editor.bindProperty('value', this, 'propertyValue');
+        this.editor.bindProperty('value', new PathObserver(this,
+            'propertyValue'));
         // update editor meta from property
         this.updateEditorMeta();
       },
