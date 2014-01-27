@@ -1,10 +1,11 @@
 {
   "name": "sandbox",
   "dependencies": {
-    "platform": "Polymer/platform#master",
-    "polymer": "Polymer/polymer#master",
-    "polymer-elements": "Polymer/polymer-elements#master",
-    "polymer-ui-elements": "Polymer/polymer-ui-elements#master",
-    "more-elements": "Polymer/more-elements#master"
-  }
+    "platform": "Polymer/platform#0.1.4",
+    "polymer": "Polymer/polymer#0.1.4",
+    "polymer-elements": "Polymer/polymer-elements#0.1.4",
+    "polymer-ui-elements": "Polymer/polymer-ui-elements#0.1.4",
+    "more-elements": "Polymer/more-elements#0.1.4"
+  },
+  "version": "0.1.4"
 }
